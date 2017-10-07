@@ -1,5 +1,7 @@
 # -*- encoding=utf-8 -*-
 
+def stitch_blocks(block1, block2):
+    return block1+block2
 
 def mk_sigma(bottom, top, sequence):
     return ' '*(3-(len(top)/2))+top+'\n \\‾‾‾\n  \\\n   |  ' + sequence + '\n  /\n /___\n' + ' '*(3-(len(bottom)/2))+bottom
